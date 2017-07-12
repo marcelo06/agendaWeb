@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
  * A Design by GraphBerry
- * Author: GraphBerry
+* Author: GraphBerry
  * Author URL: http://graphberry.com
  * License: http://graphberry.com/pages/license
 -->
@@ -11,15 +11,14 @@
         <meta charset=utf-8>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Agenda Web | Studio1905</title>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Load Roboto font -->
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <!-- Load css styles -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+         <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/estilos.css'); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('css/pluton.css'); ?>" />
         <!--[if IE 7]>
             <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
         <![endif]-->
@@ -40,7 +39,7 @@
             <div class="navbar-inner">
                 <div class="container">
                     <a href="#" class="brand">
-                        <img src="images/logo.png" width="120" height="40" alt="Logo" />
+                        <img src="images/logo/3_logo_blanco.png" />
                         <!-- This is website logo -->
                     </a>
                     <!-- Navigation button, visible on small resolution -->
