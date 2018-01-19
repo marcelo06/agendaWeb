@@ -10,7 +10,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-        <link rel="stylesheet" href="<?php echo base_url('assets/css/main.css'); ?>" />
+        <link rel="stylesheet" href="<?= base_url('assets/css/main.css'); ?>" />
         <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     </head>
@@ -23,7 +23,7 @@
             </header>
 
         <!-- Signup Form -->
-            <form id="signup-form" method="post" action="#">
+            <form id="signup-form" method="post" action="<?= base_url('User/login'); ?>">
                 <input type="email" name="email" id="email" placeholder="Email Address"/>
                 <input type="password" name="password" id="password" placeholder="Password" />
                 <input type="submit" value="Login" />
@@ -44,7 +44,7 @@
 
         <!-- Scripts -->
             <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-            <script src="<?php echo base_url('assets/js/main.js'); ?>"></script>
+            <script src="<?= base_url('/assets/js/main.js'); ?>"></script>
 
     </body>
 </html>
