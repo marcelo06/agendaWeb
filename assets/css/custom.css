@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 24/01/2019, 12:06:40 AM
+    Author     : crist
+*/
+html{
+	height:100%;
+	width:100%;
+}
+body{
+	background: #8ba987 url('../../images/bg01.jpg') no-repeat center center;
+	background-size:100% 100%;
+}
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+    padding: 5%;
+    background: darkslategray;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: darkslategray;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: darkslategray;
+    background-color: #fff;
+}
+.login-form-1 .ForgetPwd{
+    color: darkslategray;
+    font-weight: 600;
+    text-decoration: none;
+}
