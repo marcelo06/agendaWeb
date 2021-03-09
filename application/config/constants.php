@@ -83,3 +83,9 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+/**
+ * App constants
+ */
+define('CLIENT_ID', '887128967129-h3dr9ah2st4msrl0t4t5u612ccbs6gh4.apps.googleusercontent.com');
+define('CLIENT_SECRET', 'RnDLn3hnLgP-IzlAsWd_XuTw');
